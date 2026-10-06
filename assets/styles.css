@@ -3,18 +3,18 @@
 /* Separate pages and current navigation item. */
 body{min-height:100vh;display:flex;flex-direction:column}main{width:100%;flex:1}footer{width:100%}nav a[aria-current="page"]{color:var(--accent);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:7px}nav{gap:19px}.page-home .intro{padding-bottom:76px}.page-home{display:flex;align-items:center}.page-home .intro{width:100%}main:not(.page-home)>.section{padding-top:58px}@media(max-width:720px){nav{gap:5px 15px}.page-home{display:block}.page-home .intro{padding-bottom:42px}main:not(.page-home)>.section{padding-top:36px}}
 
-/* Compact Chicago author-date bibliography. */
+/* Compact bibliography matching the author's reference sample. */
 .page-publications .section-heading{margin-bottom:24px}
 .page-publications .authorship-key{display:flex;flex-wrap:wrap;gap:4px 20px;font-size:.82rem;color:var(--muted);line-height:1.5;margin-bottom:0}
 .page-publications sup{font-size:.7em;line-height:0}
 .page-publications .publications{list-style:decimal outside;padding-left:2.25rem}
 .page-publications .publication{display:list-item;border:0;padding:0;margin:0 0 18px}
 .page-publications .publication::marker{content:"[" counter(list-item) "] ";color:var(--muted);font-size:.9rem;font-variant-numeric:tabular-nums}
-.page-publications .citation{padding-left:0;text-indent:0;margin:0;font-size:.95rem;line-height:1.6}
-.page-publications .citation a{color:var(--accent)}
-.page-publications .citation strong{font-weight:650}
+.page-publications .citation{padding-left:0;text-indent:0;margin:0;font-family:"Times New Roman",Times,serif;font-size:1.06rem;line-height:1.6}
+.page-publications .citation a{color:var(--ink)}
+.page-publications .citation strong{font-weight:700}
 .page-publications .review-status{color:var(--muted)}
 .page-publications .text-links{margin-top:4px;margin-left:0;gap:6px 16px;font-size:.8rem}
 .page-publications .publication-group-heading{margin-top:28px}
 .page-publications .group-heading{padding-bottom:8px;border-bottom:1px solid var(--line);margin-bottom:17px}
-@media(max-width:720px){.page-publications .citation{font-size:.92rem;line-height:1.6}.page-publications .authorship-key{font-size:.78rem;gap:5px}.page-publications .authorship-key span{display:block;flex-basis:100%}.page-publications .publication{margin-bottom:19px}}
+@media(max-width:720px){.page-publications .citation{font-size:1rem;line-height:1.6}.page-publications .authorship-key{font-size:.78rem;gap:5px}.page-publications .authorship-key span{display:block;flex-basis:100%}.page-publications .publication{margin-bottom:19px}}
