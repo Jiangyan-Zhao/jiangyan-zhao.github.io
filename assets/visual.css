@@ -118,9 +118,7 @@ footer{font-size:.72rem}
 .reveal-ready{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
 .reveal-ready.is-visible,.reveal-ready:focus-within{opacity:1;transform:none}
 [data-motion="on"] .svg-trajectory{animation:trajectory 18s linear infinite}
-[data-motion="on"] .svg-pulse{animation:kernel-pulse 6s ease-in-out infinite}
 @keyframes trajectory{to{stroke-dashoffset:-120}}
-@keyframes kernel-pulse{0%,100%{transform:scale(.85);opacity:.3}50%{transform:scale(1.12);opacity:.65}}
 [data-motion="off"] .svg-trajectory,[data-motion="off"] .svg-pulse,[data-visibility="hidden"] .svg-trajectory,[data-visibility="hidden"] .svg-pulse{animation-play-state:paused}
 [data-motion="off"] .geometry-canvas{transform:none}
 @media(max-width:1100px){nav{gap:16px}.header-inner{gap:18px}.hero{gap:15px}.hero h1{font-size:4.7rem}.philosophy{gap:45px;padding:54px 43px}.area-card{padding-left:23px;padding-right:23px}.area-card h3{font-size:1.4rem}.software-feature{gap:45px}}

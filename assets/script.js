@@ -3,7 +3,6 @@
   'use strict';
   const root = document.documentElement;
   const themeButton = document.querySelector('.theme-toggle');
-  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let explicitTheme = null;
   let motionPreference = 'on';
@@ -17,7 +16,7 @@
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = theme === 'dark' ? '#0b141e' : '#f8faf9';
   };
-  setTheme(explicitTheme === 'light' || explicitTheme === 'dark' ? explicitTheme : (systemTheme.matches ? 'dark' : 'light'));
+  setTheme(explicitTheme === 'light' || explicitTheme === 'dark' ? explicitTheme : 'dark');
   if (themeButton) {
     themeButton.hidden = false;
     themeButton.addEventListener('click', () => {
@@ -26,9 +25,6 @@
       try { localStorage.setItem('jiangyan-theme', explicitTheme); } catch (_) {}
     });
   }
-  systemTheme.addEventListener('change', event => {
-    if (explicitTheme !== 'light' && explicitTheme !== 'dark') setTheme(event.matches ? 'dark' : 'light');
-  });
   const motionButton = document.querySelector('.motion-toggle');
   const geometry = document.querySelector('.hero-geometry');
   const canvas = document.querySelector('.geometry-canvas');
@@ -53,7 +49,7 @@
     try { localStorage.setItem('jiangyan-motion', motionPreference); } catch (_) {}
     setMotion();
   });
-  if (geometry && canvas && window.matchMedia('(pointer: fine)').matches) {
+  if (geometry && canvas && window.matchMedia('(min-width: 721px) and (pointer: fine)').matches) {
     geometry.addEventListener('pointermove', event => {
       if (root.dataset.motion !== 'on') return;
       const rect = geometry.getBoundingClientRect();
