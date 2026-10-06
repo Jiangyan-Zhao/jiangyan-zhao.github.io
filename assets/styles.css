@@ -21,3 +21,7 @@ body{min-height:100vh;display:flex;flex-direction:column}main{width:100%;flex:1}
 
 /* Keep the home research philosophy visible on small screens. */
 @media(max-width:720px){.page-home .intro-note{display:block;margin-top:28px;padding-top:14px;padding-bottom:14px}.page-home .intro-note>p:not(.eyebrow){font-size:1.4rem}.page-home .intro-note span{margin-top:14px}}
+
+.page-publications .publication-title-row{display:flex;align-items:baseline;flex-wrap:wrap;gap:10px 22px}
+.page-publications .scholar-link{font-size:.9rem;border-bottom:1px solid #b4c6d6;line-height:1.8}
+.page-publications .scholar-link:hover{border-color:var(--accent);text-decoration:none}
