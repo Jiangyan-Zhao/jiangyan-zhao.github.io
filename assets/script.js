@@ -5,10 +5,8 @@
   const themeButton = document.querySelector('.theme-toggle');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let explicitTheme = null;
-  let motionPreference = 'on';
   try {
     explicitTheme = localStorage.getItem('jiangyan-theme');
-    motionPreference = localStorage.getItem('jiangyan-motion') === 'off' ? 'off' : 'on';
   } catch (_) {}
   const setTheme = theme => {
     root.dataset.theme = theme;
@@ -25,42 +23,9 @@
       try { localStorage.setItem('jiangyan-theme', explicitTheme); } catch (_) {}
     });
   }
-  const motionButton = document.querySelector('.motion-toggle');
-  const geometry = document.querySelector('.hero-geometry');
-  const canvas = document.querySelector('.geometry-canvas');
-  const setMotion = () => {
-    const enabled = motionPreference === 'on' && !reducedMotion.matches;
-    root.dataset.motion = enabled ? 'on' : 'off';
-    if (!enabled && canvas) {
-      canvas.style.removeProperty('--px');
-      canvas.style.removeProperty('--py');
-    }
-    if (motionButton) {
-      motionButton.hidden = reducedMotion.matches;
-      motionButton.setAttribute('aria-label', enabled ? 'Pause animation' : 'Resume animation');
-      motionButton.querySelector('.motion-label').textContent = enabled ? 'Pause motion' : 'Resume motion';
-      motionButton.querySelector('.motion-icon').textContent = enabled ? 'Ⅱ' : '▷';
-    }
-  };
+  const setMotion = () => { root.dataset.motion = reducedMotion.matches ? 'off' : 'on'; };
   setMotion();
   reducedMotion.addEventListener('change', setMotion);
-  if (motionButton) motionButton.addEventListener('click', () => {
-    motionPreference = motionPreference === 'on' ? 'off' : 'on';
-    try { localStorage.setItem('jiangyan-motion', motionPreference); } catch (_) {}
-    setMotion();
-  });
-  if (geometry && canvas && window.matchMedia('(min-width: 721px) and (pointer: fine)').matches) {
-    geometry.addEventListener('pointermove', event => {
-      if (root.dataset.motion !== 'on') return;
-      const rect = geometry.getBoundingClientRect();
-      canvas.style.setProperty('--px', `${((event.clientX-rect.left)/rect.width-.5)*12}px`);
-      canvas.style.setProperty('--py', `${((event.clientY-rect.top)/rect.height-.5)*8}px`);
-    });
-    geometry.addEventListener('pointerleave', () => {
-      canvas.style.removeProperty('--px');
-      canvas.style.removeProperty('--py');
-    });
-  }
   document.addEventListener('visibilitychange', () => { root.dataset.visibility = document.hidden ? 'hidden' : 'visible'; });
   const header = document.querySelector('.site-header');
   const updateHeader = () => { if (header) header.classList.toggle('is-scrolled', window.scrollY > 20); };
@@ -81,3 +46,4 @@
     });
   }
 })();
+
