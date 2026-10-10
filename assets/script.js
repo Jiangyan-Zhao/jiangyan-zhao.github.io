@@ -8,12 +8,20 @@
   try {
     explicitTheme = localStorage.getItem('jiangyan-theme');
   } catch (_) {}
+  const updateThemeLabel = () => {
+    if (!themeButton) return;
+    const isDark = root.dataset.theme === 'dark';
+    themeButton.setAttribute('aria-label', root.lang === 'zh-CN'
+      ? `切换为${isDark ? '浅色' : '深色'}模式`
+      : `Switch to ${isDark ? 'light' : 'dark'} mode`);
+  };
   const setTheme = theme => {
     root.dataset.theme = theme;
-    if (themeButton) themeButton.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`);
+    updateThemeLabel();
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = theme === 'dark' ? '#0b141e' : '#f8faf9';
   };
+  window.addEventListener('languagechange', updateThemeLabel);
   setTheme(explicitTheme === 'light' || explicitTheme === 'dark' ? explicitTheme : 'dark');
   if (themeButton) {
     themeButton.hidden = false;
