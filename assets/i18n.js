@@ -76,7 +76,7 @@
   },
   "html.simple-models-clear-uncertainty-br-em-practical-de": {
     "en": "Simple models. Clear uncertainty.<br><em>Practical decisions.</em>",
-    "zh": "简单的模型，清晰的不确定性。<br><em>务实的决策。</em>"
+    "zh": "以简洁模型刻画不确定性。<br><em>为实际决策提供依据。</em>"
   },
   "html.research-span-aria-hidden-true-span": {
     "en": "Research <span aria-hidden=\"true\">↗</span>",
@@ -104,7 +104,7 @@
   },
   "html.keep-it-br-span-simple-span-br-and-smart": {
     "en": "KEEP IT<br><span>SIMPLE</span><br>AND SMART",
-    "zh": "保持<br><span>简单</span><br>兼具智慧"
+    "zh": "化繁<br><span>为简</span><br>巧妙求解"
   },
   "text.a-principle-for-doing-research": {
     "en": "A principle for doing research",
@@ -112,11 +112,11 @@
   },
   "text.complex-problems-do-not-always-require-complex-mod": {
     "en": "Complex problems do not always require complex models.",
-    "zh": "复杂问题，并不总需要复杂模型。"
+    "zh": "复杂问题不一定需要复杂模型。"
   },
   "text.i-focus-on-statistical-methods-that-are-simple-tra": {
     "en": "I focus on statistical methods that are simple, transparent, computationally practical, and useful for real decisions.",
-    "zh": "我追求简单、透明、可计算、可实施的统计方法，让研究服务于实际决策。"
+    "zh": "我遵循 KISS（Keep It Simple and Smart）理念，注重方法简洁、推断清晰、计算可行，让统计方法切实服务于实际决策。"
   },
   "text.research-areas": {
     "en": "Research areas",
@@ -124,7 +124,7 @@
   },
   "text.questions-that-connect": {
     "en": "Questions that connect.",
-    "zh": "相互连接的研究问题"
+    "zh": "从问题出发"
   },
   "html.all-research-interests-span-aria-hidden-true-span": {
     "en": "All research interests <span aria-hidden=\"true\">↗</span>",
@@ -136,7 +136,7 @@
   },
   "text.how-can-we-learn-from-data-while-accounting-for-un": {
     "en": "How can we learn from data while accounting for uncertainty?",
-    "zh": "如何从数据中学习，同时刻画不确定性？"
+    "zh": "如何从数据中获取信息，并量化推断中的不确定性？"
   },
   "html.statistical-learning-br-amp-optimization": {
     "en": "Statistical Learning<br>&amp; Optimization",
@@ -144,7 +144,7 @@
   },
   "text.how-can-statistical-learning-support-better-decisi": {
     "en": "How can statistical learning support better decisions?",
-    "zh": "统计学习如何支持更好的决策？"
+    "zh": "如何借助统计学习作出更好的决策？"
   },
   "text.biostatistics": {
     "en": "Biostatistics",
@@ -152,11 +152,11 @@
   },
   "text.how-can-statistical-methods-inform-health-and-biom": {
     "en": "How can statistical methods inform health and biomedical research?",
-    "zh": "统计方法如何支持健康与生物医学研究？"
+    "zh": "如何用统计方法解决健康与生物医学研究中的问题？"
   },
   "text.connected-through-statistical-computing-and-practi": {
     "en": "Connected through statistical computing and practical software.",
-    "zh": "以统计计算与实用软件连接方法和应用。"
+    "zh": "通过统计计算与软件实现，将研究方法用于实际问题。"
   },
   "text.selected-work": {
     "en": "Selected work",
@@ -172,11 +172,11 @@
   },
   "text.2026-accepted": {
     "en": "2026 · Accepted",
-    "zh": "2026 · 已接收"
+    "zh": "2026 · 已录用"
   },
   "text.probability-modeling-uncertainty-quantification-an": {
     "en": "Probability modeling, uncertainty quantification, and an R implementation.",
-    "zh": "概率建模、不确定性量化及其 R 软件实现。"
+    "zh": "用贝塔核过程建模概率、量化不确定性，并提供相应的 R 软件实现。"
   },
   "text.project-website": {
     "en": "Project website",
@@ -184,7 +184,7 @@
   },
   "text.citation-resources": {
     "en": "Citation & resources",
-    "zh": "引用与资源"
+    "zh": "文献与资源"
   },
   "text.2024-published": {
     "en": "2024 · Published",
@@ -216,11 +216,11 @@
   },
   "attribute.screenshot-of-the-real-bkp-project-website-focused": {
     "en": "Screenshot of the real BKP project website, focused on its interactive probability modeling example.",
-    "zh": "BKP 真实项目网站截图，聚焦交互式概率建模示例。"
+    "zh": "BKP 项目主页截图，展示交互式概率建模示例。"
   },
   "html.bkp-project-website-span-actual-website-screenshot": {
     "en": "BKP project website <span>Actual website screenshot</span>",
-    "zh": "BKP 项目主页 <span>真实网站截图</span>"
+    "zh": "BKP 项目主页 <span>网站截图</span>"
   },
   "text.software-bkp": {
     "en": "Software / BKP",
@@ -232,7 +232,7 @@
   },
   "text.bkp-is-an-r-package-for-beta-kernel-process-modeli": {
     "en": "BKP is an R package for beta kernel process modeling. Explore the software, its documentation, and the examples behind the method.",
-    "zh": "BKP 是用于贝塔核过程建模的 R 软件包，可通过软件、文档与示例了解方法及其应用。"
+    "zh": "BKP 是用于贝塔核过程建模的 R 软件包。项目主页提供软件文档和应用示例，便于了解和使用这一方法。"
   },
   "text.2026-jiangyan-zhao": {
     "en": "© 2026 Jiangyan Zhao",
@@ -252,11 +252,11 @@
   },
   "text.statistical-methods-that-connect-uncertainty-compu": {
     "en": "Statistical methods that connect uncertainty, computation, and decisions.",
-    "zh": "连接不确定性、计算与决策的统计方法。"
+    "zh": "以统计方法刻画不确定性，为实际决策提供支持。"
   },
   "text.my-research-connects-bayesian-statistics-statistic": {
     "en": "My research connects Bayesian statistics, statistical learning and optimization, and biostatistics. Across these areas, I aim to preserve the essential structure of a problem while keeping inference transparent and computation practical.",
-    "zh": "我的研究连接贝叶斯统计、统计学习与优化、生物统计。在这些方向中，我关注问题的核心结构，追求透明的推断与实用的计算。"
+    "zh": "我的研究主要围绕贝叶斯统计、统计学习与优化、生物统计展开。我注重抓住问题的关键，构建易于解释、便于计算的统计方法。"
   },
   "attribute.research-themes": {
     "en": "Research themes",
@@ -280,11 +280,11 @@
   },
   "text.probability-modeling-and-uncertainty": {
     "en": "Probability modeling and uncertainty",
-    "zh": "概率建模与不确定性"
+    "zh": "概率建模与不确定性量化"
   },
   "text.how-can-we-model-probabilities-flexibly-while-keep": {
     "en": "How can we model probabilities flexibly while keeping uncertainty easy to compute and interpret?",
-    "zh": "如何灵活地建模概率，同时让不确定性易于计算和解释？"
+    "zh": "如何灵活建模概率，并清晰、便捷地量化不确定性？"
   },
   "text.method": {
     "en": "Method",
@@ -292,15 +292,15 @@
   },
   "text.i-study-kernel-based-probability-models-that-borro": {
     "en": "I study kernel-based probability models that borrow evidence across nearby inputs. Beta and Dirichlet conjugate updates provide pointwise posterior summaries for binomial and categorical responses, with scalable approximations for larger datasets.",
-    "zh": "我研究基于核的概率模型，在相近输入之间借用信息。通过贝塔与狄利克雷共轭更新，为二项和分类响应提供逐点后验摘要，并利用可扩展的近似方法处理更大规模的数据。"
+    "zh": "我研究基于核函数的概率模型，通过相近输入之间的信息共享进行推断。针对二项与分类响应，利用贝塔分布和狄利克雷分布的共轭更新，计算各输入点的后验估计及不确定性，并通过可扩展的近似方法处理较大规模的数据。"
   },
   "text.representative-work": {
     "en": "Representative work",
-    "zh": "代表工作"
+    "zh": "代表成果"
   },
   "html.em-journal-of-statistical-software-em-2026-accepte": {
     "en": "<em>Journal of Statistical Software</em> · 2026 · Accepted",
-    "zh": "<em>Journal of Statistical Software</em> · 2026 · 已接收"
+    "zh": "<em>Journal of Statistical Software</em> · 2026 · 已录用"
   },
   "text.r-package": {
     "en": "R package",
@@ -308,15 +308,15 @@
   },
   "text.learning-for-constrained-decisions": {
     "en": "Learning for constrained decisions",
-    "zh": "面向约束决策的学习"
+    "zh": "约束条件下的学习与决策"
   },
   "text.how-can-we-make-good-decisions-when-evaluations-ar": {
     "en": "How can we make good decisions when evaluations are expensive and constraints matter?",
-    "zh": "当评估代价高昂且必须满足约束时，如何作出好的决策？"
+    "zh": "当目标评估成本较高、决策还需满足约束时，如何找到合适的方案？"
   },
   "text.i-combine-statistical-surrogate-modeling-with-nume": {
     "en": "I combine statistical surrogate modeling with numerical optimization. Bayesian optimization within an exact penalty framework brings objectives and constraints into one sequential search, including problems with equality constraints and infeasible starting points.",
-    "zh": "我将统计代理模型与数值优化相结合，在精确罚函数框架中开展贝叶斯优化，将目标与约束纳入统一的序贯搜索，并处理等式约束及不可行初始点等问题。"
+    "zh": "我将代理模型与数值优化相结合，利用精确罚函数统一处理优化目标与约束条件，构建序贯贝叶斯优化方法。这一框架也考虑等式约束和初始点不可行等情形。"
   },
   "html.em-technometrics-em-2024-published": {
     "en": "<em>Technometrics</em> · 2024 · Published",
@@ -324,15 +324,15 @@
   },
   "text.adaptive-learning-in-clinical-studies": {
     "en": "Adaptive learning in clinical studies",
-    "zh": "临床研究中的自适应学习"
+    "zh": "临床试验中的自适应设计"
   },
   "text.how-can-a-clinical-trial-learn-as-it-progresses-wh": {
     "en": "How can a clinical trial learn as it progresses while balancing safety and treatment benefit?",
-    "zh": "临床试验如何在进行中持续学习，并兼顾安全性与治疗获益？"
+    "zh": "临床试验如何利用不断积累的数据调整决策，同时兼顾安全性与治疗获益？"
   },
   "text.i-develop-bayesian-methods-for-adaptive-clinical-t": {
     "en": "I develop Bayesian methods for adaptive clinical trials and dose optimization. This includes borrowing information across doses or indications, incorporating delayed outcomes, and translating updated toxicity and efficacy estimates into interim decisions.",
-    "zh": "我研究用于自适应临床试验与剂量优化的贝叶斯方法，包括在剂量或适应症之间借用信息、处理延迟结局，并将更新后的毒性和疗效估计转化为期中决策。"
+    "zh": "我研究自适应临床试验与剂量优化中的贝叶斯方法，结合不同剂量或适应症之间的信息借用，并处理结局观测延迟。随着试验数据积累，更新毒性和疗效估计，为期中决策提供依据。"
   },
   "html.em-statistical-methods-in-medical-research-em-2026": {
     "en": "<em>Statistical Methods in Medical Research</em> · 2026 · Published",
@@ -340,15 +340,15 @@
   },
   "text.joint-modeling-of-toxicity-and-survival-efficacy-s": {
     "en": "Joint modeling of toxicity and survival efficacy supports dose decisions across indications.",
-    "zh": "联合建模毒性与生存疗效，支持不同适应症的剂量决策。"
+    "zh": "联合建模毒性与生存结局，为不同适应症的剂量选择提供依据。"
   },
   "html.preprint-major-revision-at-em-statistical-methods-": {
     "en": "Preprint · Major revision at <em>Statistical Methods in Medical Research</em>",
-    "zh": "预印本 · 大修中，投稿期刊： <em>Statistical Methods in Medical Research</em>"
+    "zh": "预印本 · <em>Statistical Methods in Medical Research</em> · 大修阶段"
   },
   "text.controlled-borrowing-across-nearby-doses-retains-t": {
     "en": "Controlled borrowing across nearby doses retains the transparent decision structure of the Keyboard design.",
-    "zh": "在相邻剂量之间进行可控的信息借用，同时保留 Keyboard 设计透明的决策结构。"
+    "zh": "在相邻剂量间适度借用信息，同时保留 Keyboard 设计清晰、透明的决策规则。"
   },
   "text.preprint": {
     "en": "Preprint",
@@ -364,7 +364,7 @@
   },
   "text.computation-connects-the-method-to-its-use-scalabl": {
     "en": "Computation connects the method to its use: scalable algorithms, simulation studies, reproducible code, and R software. BKP, SKBD, and EPBO make these research ideas available as tools and implementations.",
-    "zh": "计算连接方法与应用：可扩展算法、模拟研究、可复现代码与 R 软件。BKP、SKBD 和 EPBO 将这些研究思路转化为工具与实现。"
+    "zh": "统计计算贯穿方法的开发与应用，包括可扩展算法、模拟研究和可复现的软件实现。BKP、SKBD 和 EPBO 提供了相应的 R 软件包或研究代码。"
   },
   "html.explore-software-span-aria-hidden-true-span": {
     "en": "Explore software <span aria-hidden=\"true\">↗</span>",
@@ -392,7 +392,7 @@
   },
   "html.sup-sup-alphabetical-author-order-equal-contributi": {
     "en": "<sup>‡</sup> Alphabetical author order; equal contribution.",
-    "zh": "<sup>‡</sup> 作者按字母顺序排列；贡献相同。"
+    "zh": "<sup>‡</sup> 作者按姓氏字母顺序排列，贡献相同。"
   },
   "text.preprints": {
     "en": "Preprints",
@@ -400,7 +400,7 @@
   },
   "html.major-revision-at-strong-em-statistical-methods-in": {
     "en": "Major revision at <strong><em>Statistical Methods in Medical Research</em></strong>.",
-    "zh": "大修中，投稿期刊： <strong><em>Statistical Methods in Medical Research</em></strong>."
+    "zh": "投稿至 <strong><em>Statistical Methods in Medical Research</em></strong>，大修阶段。"
   },
   "text.materials": {
     "en": "Materials",
@@ -408,15 +408,15 @@
   },
   "html.under-review-at-strong-em-ecology-em-strong": {
     "en": "Under review at <strong><em>Ecology</em></strong>.",
-    "zh": "审稿中，投稿期刊： <strong><em>Ecology</em></strong>."
+    "zh": "投稿至 <strong><em>Ecology</em></strong>，审稿中。"
   },
   "text.published-accepted": {
     "en": "Published & accepted",
-    "zh": "已发表与已接收"
+    "zh": "已发表及已录用"
   },
   "html.strong-zhao-j-strong-sup-sup-qing-k-sup-sup-and-xu": {
     "en": "<strong>Zhao, J.</strong><sup>†</sup>, Qing, K.<sup>†</sup>, and Xu, J. (2026). <a href=\"https://arxiv.org/abs/2508.10447\">BKP: An R package for beta kernel process modeling</a>. <strong><em>Journal of Statistical Software</em></strong>. Accepted.",
-    "zh": "<strong>Zhao, J.</strong><sup>†</sup>, Qing, K.<sup>†</sup>, and Xu, J. (2026). <a href=\"https://arxiv.org/abs/2508.10447\">BKP: An R package for beta kernel process modeling</a>. <strong><em>Journal of Statistical Software</em></strong>。已接收。"
+    "zh": "<strong>Zhao, J.</strong><sup>†</sup>, Qing, K.<sup>†</sup>, and Xu, J. (2026). <a href=\"https://arxiv.org/abs/2508.10447\">BKP: An R package for beta kernel process modeling</a>. <strong><em>Journal of Statistical Software</em></strong>. 已录用。"
   },
   "text.slides": {
     "en": "Slides",
@@ -444,7 +444,7 @@
   },
   "text.methods-into-r-software": {
     "en": "Methods into R software.",
-    "zh": "将统计方法实现为 R 软件。"
+    "zh": "用 R 实现统计方法。"
   },
   "text.r-package-cran": {
     "en": "R package · CRAN",
@@ -456,31 +456,31 @@
   },
   "text.an-r-package-for-binomial-and-multinomial-probabil": {
     "en": "An R package for binomial and multinomial probability modeling with pointwise Beta and Dirichlet posterior summaries. Includes TwinBKP and TwinDKP for scalable global-local modeling.",
-    "zh": "用于二项与多项概率建模的 R 软件包，提供逐点贝塔和狄利克雷后验摘要，并包含 TwinBKP 与 TwinDKP，以支持可扩展的全局—局部建模。"
+    "zh": "用于二项与多项概率建模的 R 软件包，可计算各输入点的后验估计与不确定性，后验分布为贝塔或狄利克雷分布。TwinBKP 与 TwinDKP 结合全局和局部信息，以处理更大规模的数据。"
   },
   "html.accepted-in-em-journal-of-statistical-software-em": {
     "en": "Accepted in <em>Journal of Statistical Software</em>",
-    "zh": "已被接收，期刊： <em>Journal of Statistical Software</em>"
+    "zh": "论文已获 <em>Journal of Statistical Software</em> 录用"
   },
   "attribute.the-real-bkp-project-website-and-its-interactive-p": {
     "en": "The real BKP project website and its interactive probability modeling example.",
-    "zh": "BKP 真实项目网站及其交互式概率建模示例。"
+    "zh": "BKP 项目主页及其交互式概率建模示例。"
   },
   "text.actual-project-website": {
     "en": "Actual project website",
-    "zh": "真实项目网站"
+    "zh": "项目主页截图"
   },
   "text.shared-keyboard-designs": {
     "en": "Shared Keyboard Designs",
-    "zh": "共享 Keyboard 设计"
+    "zh": "Shared Keyboard 设计"
   },
   "text.tools-for-phase-i-dose-finding-decision-tables-ope": {
     "en": "Tools for phase I dose-finding: decision tables, operating-characteristic simulations, delayed toxicity outcomes, and adaptive dose insertion. Includes an interactive Shiny application.",
-    "zh": "用于 I 期剂量探索，提供决策表、运行特征模拟、延迟毒性结局处理与自适应剂量插入，并包含交互式 Shiny 应用。"
+    "zh": "用于 I 期临床试验的剂量探索，支持决策表生成、模拟评估、延迟毒性结局处理和自适应剂量插入，并配有交互式 Shiny 应用。"
   },
   "text.research-implementation": {
     "en": "Research implementation",
-    "zh": "研究代码实现"
+    "zh": "配套研究代码"
   },
   "text.bayesian-optimization-via-exact-penalty": {
     "en": "Bayesian Optimization via Exact Penalty",
@@ -488,7 +488,7 @@
   },
   "text.research-implementation-of-constrained-bayesian-op": {
     "en": "Research implementation of constrained Bayesian optimization using exact penalty functions. Companion code for the Technometrics paper.",
-    "zh": "利用精确罚函数开展约束贝叶斯优化的研究实现，为 Technometrics 论文提供配套代码。"
+    "zh": "利用精确罚函数处理约束贝叶斯优化问题，是 Technometrics 论文的配套研究代码。"
   },
   "attribute.experience-jiangyan-zhao": {
     "en": "Experience | Jiangyan Zhao",
@@ -500,7 +500,7 @@
   },
   "text.academic-training-and-research-appointments": {
     "en": "Academic training and research appointments.",
-    "zh": "学术训练与研究任职经历。"
+    "zh": "学习、访学与科研工作经历。"
   },
   "text.2024-07-present": {
     "en": "2024.07–present",
@@ -508,7 +508,7 @@
   },
   "text.current-appointment": {
     "en": "Current appointment",
-    "zh": "当前任职"
+    "zh": "现任"
   },
   "text.postdoctoral-researcher-in-statistics": {
     "en": "Postdoctoral Researcher in Statistics",
@@ -516,7 +516,7 @@
   },
   "text.east-china-normal-university-shanghai-china": {
     "en": "East China Normal University · Shanghai, China",
-    "zh": "华东师范大学 · 中国上海"
+    "zh": "华东师范大学 · 上海"
   },
   "text.combined-master-s-and-ph-d-program-in-statistics": {
     "en": "Combined Master’s and Ph.D. Program in Statistics",
@@ -524,7 +524,7 @@
   },
   "text.research-visits-at-technion-israel-institute-of-te": {
     "en": "Research visits at Technion – Israel Institute of Technology",
-    "zh": "以色列理工学院访问经历"
+    "zh": "以色列理工学院访学经历"
   },
   "html.2021-07-2022-09-joint-ph-d-visiting-student-br-202": {
     "en": "2021.07–2022.09 · Joint Ph.D. visiting student<br>2020.01–2020.03 · Visiting Ph.D. student",
@@ -532,11 +532,11 @@
   },
   "text.b-sc-in-mathematics-and-applied-mathematics": {
     "en": "B.Sc. in Mathematics and Applied Mathematics",
-    "zh": "数学与应用数学学士"
+    "zh": "数学与应用数学 · 学士"
   },
   "text.yantai-university-yantai-china": {
     "en": "Yantai University · Yantai, China",
-    "zh": "烟台大学 · 中国烟台"
+    "zh": "烟台大学 · 烟台"
   },
   "attribute.teaching-jiangyan-zhao": {
     "en": "Teaching | Jiangyan Zhao",
@@ -548,23 +548,23 @@
   },
   "text.biostatistics-teaching-assistance": {
     "en": "Biostatistics · Teaching assistance.",
-    "zh": "生物统计学 · 助教经历。"
+    "zh": "《生物统计学》课程助教"
   },
   "text.teaching-assistant-appointments": {
     "en": "Teaching assistant appointments",
-    "zh": "助教任职年份"
+    "zh": "担任助教"
   },
   "html.teaching-assistant-br-em-biostatistics-em": {
     "en": "Teaching Assistant,<br><em>Biostatistics</em>",
-    "zh": "助教，<br><em>生物统计</em>"
+    "zh": "《生物统计学》<br><em>课程助教</em>"
   },
   "text.responsible-for-computer-lab-sessions-and-course-q": {
     "en": "Responsible for computer lab sessions and course Q&A.",
-    "zh": "负责上机实践教学与课程答疑。"
+    "zh": "承担课程上机实践辅导与答疑工作。"
   },
   "text.computer-labs": {
     "en": "Computer labs",
-    "zh": "上机实践"
+    "zh": "上机辅导"
   },
   "text.course-q-a": {
     "en": "Course Q&A",
@@ -580,7 +580,7 @@
   },
   "text.contact-details-and-academic-profiles": {
     "en": "Contact details and academic profiles.",
-    "zh": "联系信息与学术主页。"
+    "zh": "邮箱与学术主页。"
   },
   "text.email": {
     "en": "Email",
@@ -588,11 +588,11 @@
   },
   "html.east-china-normal-university-br-shanghai-china": {
     "en": "East China Normal University<br>Shanghai, China",
-    "zh": "华东师范大学<br>中国上海"
+    "zh": "华东师范大学<br>上海"
   },
   "text.papers-citations": {
     "en": "Papers & citations",
-    "zh": "论文与引用"
+    "zh": "论文与引用记录"
   },
   "text.software-code": {
     "en": "Software & code",
