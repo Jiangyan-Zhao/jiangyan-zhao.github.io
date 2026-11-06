@@ -1,19 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title data-i18n="page.about">About | Jiangyan Zhao</title>
   <meta name="description" content="Jiangyan Zhao, postdoctoral researcher in statistics at East China Normal University. Bayesian statistics, optimization, clinical trial design, and R software." data-i18n-content="meta.description">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#0b141e">
   <meta property="og:type" content="website">
   <meta property="og:title" content="About | Jiangyan Zhao" data-i18n-content="page.about">
   <meta property="og:description" content="Jiangyan Zhao, postdoctoral researcher in statistics at East China Normal University. Bayesian statistics, optimization, clinical trial design, and R software." data-i18n-content="meta.description">
   <meta property="og:url" content="https://jiangyan-zhao.github.io/">
   <link rel="canonical" href="https://jiangyan-zhao.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/base.css?v=17">
-  <script src="assets/i18n.js?v=3" defer></script>
+  <script src="assets/theme.js?v=1"></script>
+  <link rel="stylesheet" href="assets/base.css?v=18">
+  <script src="assets/i18n.js?v=4" defer></script>
 </head>
 <body>
   <a data-i18n="nav.skip" class="skip-link" href="#main">Skip to content</a>
@@ -21,7 +22,13 @@
     <div class="header-inner">
       <a class="site-name" href="index.html">Jiangyan Zhao <span lang="zh-CN">(赵江彦)</span></a>
       <nav aria-label="Main navigation" data-i18n-aria-label="nav.label"><a data-i18n="nav.about" href="index.html" aria-current="page">About</a> <a data-i18n="nav.research" href="research.html">Research</a></nav>
-      <button class="language-toggle" type="button" aria-label="Switch to Chinese" lang="zh-CN" hidden>中文</button>
+      <div class="header-controls">
+        <button class="language-toggle" type="button" aria-label="Switch to Chinese" lang="zh-CN" hidden>中文</button>
+        <button class="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch to light mode" hidden>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 14.4A9 9 0 0 1 9.6 3.4a9 9 0 1 0 11 11Z"/></svg>
+        </button>
+      </div>
     </div>
   </header>
   <div class="page-layout">
@@ -36,7 +43,6 @@
         <li><a href="https://scholar.google.com/citations?user=xZHKXAEAAAAJ">Google Scholar</a></li>
         <li><a href="https://github.com/Jiangyan-Zhao">GitHub</a></li>
         <li><a href="https://orcid.org/0009-0004-8287-6352">ORCID</a></li>
-        <li><a data-i18n="link.cv" href="files/Jiangyan_Zhao_CV.pdf">Curriculum vitae (PDF)</a></li>
       </ul>
     </aside>
     <main id="main" tabindex="-1">

@@ -70,10 +70,6 @@
     "en": "Under review at <strong><em>Ecology</em></strong>.",
     "zh": "投稿至 <strong><em>Ecology</em></strong>，审稿中。"
   },
-  "link.cv": {
-    "en": "Curriculum vitae (PDF)",
-    "zh": "个人简历（PDF）"
-  },
   "link.email": {
     "en": "Email",
     "zh": "电子邮箱"
@@ -223,6 +219,7 @@
       button.setAttribute('aria-label', language === 'en' ? 'Switch to Chinese' : '切换为英文');
       button.hidden = false;
     }
+    window.dispatchEvent(new Event('languagechange'));
   }
   setLanguage(language);
   if (button) button.addEventListener('click', () => {
